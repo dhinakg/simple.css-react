@@ -66,6 +66,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Drop margin, as our main element is #root */
+body {
+  margin: 0;
+}
+
 /* Make the body a nice central block */
 #root {
   color: var(--text);
