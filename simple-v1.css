@@ -57,15 +57,19 @@ html {
 
 /* Drop margin, as our main element is #root */
 body {
-  margin: 0;
-}
-
-/* Make the body a nice central block */
-#root {
   color: var(--text);
   background: var(--bg);
   font-size: var(--base-fontsize);
   line-height: var(--line-height);
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Make the body a nice central block */
+#root {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
